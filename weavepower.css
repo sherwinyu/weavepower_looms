@@ -1,0 +1,98 @@
+@font-face {
+	font-family: "Source Sans bold";
+	src: url('SourceSansPro-Bold.otf');
+}
+
+@font-face {
+	font-family: "Source Sans semibold";
+	src: url('SourceSansPro-Bold.otf');
+}
+
+@font-face {
+	font-family: "Source Sans";
+	src: url('SourceSansPro-Regular.otf');
+}
+
+@font-face {
+	font-family: "Source Sans light";
+	src: url('SourceSansPro-Light.otf');
+}
+
+
+/*
+SourceSansPro-BlackIt.otf
+SourceSansPro-Black.otf
+SourceSansPro-BoldIt.otf
+SourceSansPro-Bold.otf
+SourceSansPro-ExtraLightIt.otf
+SourceSansPro-ExtraLight.otf
+SourceSansPro-It.otf
+SourceSansPro-LightIt.otf
+SourceSansPro-Light.otf
+SourceSansPro-Regular.otf
+SourceSansPro-SemiboldIt.otf
+SourceSansPro-Semibold.otf
+*/
+.background {
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top: 150px;
+  background: rgba(255, 255, 255, 0.65);
+  padding: 25px;
+  font-family: "Source Sans";
+  font-size: 24px;
+  text-align: center;
+  color: #262626;
+}
+
+#logo {
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+}
+p.info1 {
+  font-size: 16px;
+  font-family: "Source sans light";
+}
+p.info {
+  font-size: 24px;
+  font-family: "Source sans";
+}
+div.subnote {
+  font-size: 14px;
+  text-align: right;
+  position: absolute;
+  right: 15px;
+  bottom: 15px;
+  font-family: "Source sans";
+  color: #666666;
+}
+.subnote a {
+  font-family: "Source sans";
+  text-decoration: none;
+  color: #444444;
+}
+.subnote a:hover {
+  text-decoration: none;
+  color: #0054a6;
+}
+
+div.wrapper {
+  height: 100%;
+  width: 100%;
+}
+
+body.welcome{
+  /*background-image: url("weavepower_landing.jpg");
+  // background-repeat:no-repeat;
+  */
+}
+html {
+  background: url('weavepower_landing.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
